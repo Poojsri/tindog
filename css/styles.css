@@ -1,0 +1,166 @@
+body{
+  font-family: 'Montserrat Alternates';
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+/* headings */
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #FF4C68;
+  color:#fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 16px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat Alternates';
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+ /* Dowload button */
+ .Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+ /* Title image */
+.tit-img{
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+/* features part */
+#features{
+ position: relative;
+}
+.feat-headings{
+  font-size: 1.5rem;
+}
+
+.tick{
+  color: #EF8172;
+  padding-bottom: 1.875rem;
+}
+
+.tick:hover{
+  color: #FF4C68;
+}
+
+.mid{
+  width:70%;
+  margin: auto;
+  padding-bottom: 9.375rem;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color: #EF8172;
+}
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.test-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* cards */
+#pricing{
+  padding: 100px;
+}
+.price-tit{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.offer-name{
+  font-size: 1.5rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+.brands{
+    margin: 20px 10px;
+}
+
+/* resposiveness */
+@media (max-width:1068px){
+  #title{
+    text-align: center;
+  }
+
+
+  .tit-img{
+    position: static;
+    width: 50%;
+    transform:rotate(0);
+  }
+}
